@@ -1,0 +1,100 @@
+{
+  "n_records": 1909,
+  "corpus_means": {
+    "sari": {
+      "baseline": 10.156,
+      "graph": 15.009,
+      "delta": 4.853
+    },
+    "bleu": {
+      "baseline": 0.143,
+      "graph": 0.255,
+      "delta": 0.112
+    },
+    "fk": {
+      "original": 10.662,
+      "reference": 10.662,
+      "baseline": 6.745,
+      "graph": 6.839,
+      "delta": 0.094
+    },
+    "cp": {
+      "baseline": 0.637,
+      "graph": 0.888,
+      "delta": 0.251
+    },
+    "asl": {
+      "baseline": 6.271,
+      "graph": 5.898
+    }
+  },
+  "standard_deviations": {
+    "sari": {
+      "baseline": 5.162,
+      "graph": 5.451
+    },
+    "bleu": {
+      "baseline": 0.143,
+      "graph": 0.177
+    },
+    "fk": {
+      "baseline": 4.158,
+      "graph": 3.999
+    },
+    "cp": {
+      "baseline": 0.267,
+      "graph": 0.15
+    },
+    "asl": {
+      "baseline": 1.581,
+      "graph": 1.502
+    }
+  },
+  "win_loss_tie": {
+    "wins": 1547,
+    "losses": 173,
+    "ties": 189,
+    "win_rate": 0.81,
+    "win_pct": 81.0,
+    "loss_pct": 9.1,
+    "tie_pct": 9.9
+  },
+  "sari_delta": {
+    "mean": 4.853,
+    "sd": 5.21,
+    "median": 4.39,
+    "min": -15.56,
+    "max": 24.35,
+    "n_gt2": 1298,
+    "n_lt_neg2": 98
+  },
+  "readability": {
+    "pct_baseline_below_original": 82.3,
+    "pct_graph_below_original": 85.1,
+    "graph_vs_reference_delta": -3.823
+  },
+  "significance_tests": {
+    "sari": {
+      "t": 40.6866,
+      "p": 0.0
+    },
+    "bleu": {
+      "t": 25.561,
+      "p": 0.0
+    },
+    "fk": {
+      "t": 1.3652,
+      "p": 0.1723
+    },
+    "cp": {
+      "t": 43.3383,
+      "p": 0.0
+    }
+  },
+  "concept_preservation_detail": {
+    "pct_graph_perfect": 57.0,
+    "pct_baseline_perfect": 21.3,
+    "pct_graph_beats_baseline": 64.2,
+    "pct_graph_worse": 0.7
+  }
+}
